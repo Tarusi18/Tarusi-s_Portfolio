@@ -125,9 +125,7 @@ const contactConfig = {
   YOUR_FONE: "7972922451 / 9623722683",
   description:
     "Having any exciting Opportunity !! Feel Free to reach out to me.",
-  YOUR_SERVICE_ID: "service_82km9sn",
-  YOUR_TEMPLATE_ID: "template_ba7cgog",
-  YOUR_USER_ID: "tarusi.ambule18@gmail.com",
+
 };
 
 const socialprofils = {
