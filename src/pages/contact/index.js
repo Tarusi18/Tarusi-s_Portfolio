@@ -7,6 +7,10 @@ import { Container, Row, Col, Alert } from "react-bootstrap";
 import { contactConfig } from "../../content_option";
 
 export const ContactUs = () => {
+  const YOUR_PUBLIC_KEY = "fIPhjkLAIxtQba57da";
+  const YOUR_SERVICE_ID = "service_z7qvull";
+  const YOUR_TEMPLATE_ID = "template_vx5ccz5";
+  const YOUR_USER_ID = "tarusi.ambule18@gmail.com";
   const [formData, setFormdata] = useState({
     email: "",
     name: "",
@@ -19,23 +23,20 @@ export const ContactUs = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    YOUR_PUBLIC_KEY;
     setFormdata({ loading: true });
 
     const templateParams = {
       from_name: formData.email,
       user_name: formData.name,
-      to_name: contactConfig.YOUR_EMAIL,
       message: formData.message,
     };
 
     emailjs
       .send(
-        contactConfig.YOUR_SERVICE_ID,
-        contactConfig.YOUR_TEMPLATE_ID,
+        "service_z7qvull",
+        "template_vx5ccz5",
         templateParams,
-        contactConfig.YOUR_USER_ID,
-        YOUR_PUBLIC_KEY
+        "IPhjkLAIxtQba57da"
       )
       .then(
         (result) => {
@@ -114,7 +115,7 @@ export const ContactUs = () => {
             <p>{contactConfig.description}</p>
           </Col>
           <Col lg="7" className="d-flex align-items-center">
-            <form onSubmit={handleSubmit} className="contact__form w-100">
+            <form className="contact__form w-100" onSubmit={handleSubmit}>
               <Row>
                 <Col lg="6" className="form-group">
                   <input
