@@ -1,4 +1,10 @@
 
+Want to see the portfolio use this link :
+
+https://tarusiportfolio.netlify.app/
+
+Use Laptop/Desktop for Better Experience!!
+
 
 Get the code
 
