@@ -7,10 +7,7 @@ import { Container, Row, Col, Alert } from "react-bootstrap";
 import { contactConfig } from "../../content_option";
 
 export const ContactUs = () => {
-  const YOUR_PUBLIC_KEY = "fIPhjkLAIxtQba57da";
-  const YOUR_SERVICE_ID = "service_z7qvull";
-  const YOUR_TEMPLATE_ID = "template_vx5ccz5";
-  const YOUR_USER_ID = "tarusi.ambule18@gmail.com";
+ 
   const [formData, setFormdata] = useState({
     email: "",
     name: "",
