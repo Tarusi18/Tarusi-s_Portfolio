@@ -21,7 +21,7 @@ export const Home = () => {
             style={{
               backgroundImage: `url(${backgroundImage})`,
               marginTop: 50,
-              width: "35%",
+              width: "50%",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
               backgroundSize: "cover",
