@@ -126,9 +126,8 @@ const contactConfig = {
   description:
     "Having any exciting Opportunity !! Feel Free to reach out to me.",
   YOUR_SERVICE_ID: "service_82km9sn",
-  YOUR_TEMPLATE_ID: "template_vx5ccz5s",
-  YOUR_USER_ID: "Tarusi Ambule",
-  YOUR_PUBLIC_KEY: "0cvs7c_9gR62FtWWx",
+  YOUR_TEMPLATE_ID: "template_ba7cgog",
+  YOUR_USER_ID: "tarusi.ambule18@gmail.com",
 };
 
 const socialprofils = {
@@ -148,3 +147,4 @@ export {
   socialprofils,
   logotext,
 };
+
