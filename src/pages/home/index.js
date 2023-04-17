@@ -21,10 +21,8 @@ export const Home = () => {
           style={{
               backgroundImage: `url(${backgroundImage})`,
               backgorundSize: "cover",
-              backgroundPosition: "center",
-              backgroundRepeat: "no-repeat",
-              width: "35%",
-              height: "80%",
+              width: "70vh",
+              height: "100vh",
               margin: "10",
             }}
           ></div>
