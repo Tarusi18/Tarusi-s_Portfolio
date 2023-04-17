@@ -23,7 +23,7 @@ export const Home = () => {
               backgorundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
-              width: "50%",
+              width: "35%",
               height: "80%",
               margin: "10",
             }}
