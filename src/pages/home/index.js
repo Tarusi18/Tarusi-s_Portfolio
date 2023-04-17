@@ -18,14 +18,14 @@ export const Home = () => {
         <div className="intro_sec d-block d-lg-flex align-items-center ">
           <div
             className="h_bg-image order-1 order-lg-1"
-            style={{
+          style={{
               backgroundImage: `url(${backgroundImage})`,
-              marginTop: 50,
-              width: "50%",
+              backgorundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
-              backgroundSize: "cover",
-              margin: 10,
+              width: "50%",
+              height: "80%",
+              margin: "10",
             }}
           ></div>
           <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">
