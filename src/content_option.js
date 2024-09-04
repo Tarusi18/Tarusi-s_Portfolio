@@ -4,7 +4,7 @@ const logotext = "Tarusi Ambule";
 const meta = {
   title: "Tarusi Ambule",
   description:
-    "I’m Tarusi Ambule React Full stack devloper,currently working in ATMECS Technologies Private Limited Inc.",
+    "I’m Tarusi Ambule a Software Engineer,currently working in ATMECS Global Inc.",
 };
 
 const introdata = {
